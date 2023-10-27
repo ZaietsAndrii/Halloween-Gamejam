@@ -15,7 +15,7 @@ C:/Users/User/UnityProjects/Halloween Gamejam
 -logFile
 Logs/AssetImportWorker10.log
 -srvPort
-50502
+58372
 Successfully changed project path to: C:/Users/User/UnityProjects/Halloween Gamejam
 C:/Users/User/UnityProjects/Halloween Gamejam
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/User/UnityProjects/Halloween Gamejam
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11564] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 65951412 [EditorId] 65951412 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M416NKQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [35380] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 910317842 [EditorId] 910317842 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M416NKQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [11564] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 65951412 [EditorId] 65951412 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M416NKQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [35380] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 910317842 [EditorId] 910317842 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M416NKQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 70.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 78.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.17f1 (3e8111cac19d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Resources/UnitySubsystems
@@ -67,54 +67,54 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006634 seconds.
+Registered in 0.007367 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 225 ms
+Android Extension - Scanning For ADB Devices 237 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 64.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 78.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.731 seconds
+- Completed reload, in  0.795 seconds
 Domain Reload Profiling:
-	ReloadAssembly (731ms)
-		BeginReloadAssembly (54ms)
+	ReloadAssembly (796ms)
+		BeginReloadAssembly (60ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (594ms)
-			LoadAssemblies (53ms)
+		EndReloadAssembly (644ms)
+			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (75ms)
+			SetupTypeCache (81ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (459ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (494ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (293ms)
+				InitializePlatformSupportModulesInManaged (307ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (65ms)
+				RefreshPlugins (78ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (69ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				ProcessInitializeOnLoadAttributes (74ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005229 seconds.
+Registered in 0.004298 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\UnityProjects\Halloween Gamejam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\UnityProjects\Halloween Gamejam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -122,32 +122,32 @@ Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 76.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.846 seconds
+- Completed reload, in  0.997 seconds
 Domain Reload Profiling:
-	ReloadAssembly (847ms)
-		BeginReloadAssembly (85ms)
+	ReloadAssembly (998ms)
+		BeginReloadAssembly (89ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (677ms)
-			LoadAssemblies (63ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (823ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (220ms)
+			SetupTypeCache (203ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (298ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (459ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (22ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (178ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (256ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -156,12 +156,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (113.8 KB). Loaded Objects now: 3836.
-Memory consumption went from 115.9 MB to 115.8 MB.
-Total: 2.669800 ms (FindLiveObjects: 0.253200 ms CreateObjectMapping: 0.113300 ms MarkObjects: 2.202700 ms  DeleteObjects: 0.099800 ms)
+Unloading 3886 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (184.4 KB). Loaded Objects now: 4349.
+Memory consumption went from 138.0 MB to 137.8 MB.
+Total: 3.918700 ms (FindLiveObjects: 0.498800 ms CreateObjectMapping: 0.315400 ms MarkObjects: 2.971000 ms  DeleteObjects: 0.132400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -175,56 +175,122 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 36667.743791 seconds.
-  path: Assets/Gameela/Texture/Almera_Almirah_Normal.png
-  artifactKey: Guid(c1d9564d136382c44a003e69a5c863ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gameela/Texture/Almera_Almirah_Normal.png using Guid(c1d9564d136382c44a003e69a5c863ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae9ec74370a3665cda9e073ded32701') in 0.083549 seconds 
+  Time since last request: 34836.268708 seconds.
+  path: Assets/Baseball Bats/Assets/Models/Materials
+  artifactKey: Guid(06e28179f92dd0d4e824536dea6b6b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Models/Materials using Guid(06e28179f92dd0d4e824536dea6b6b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2666260a628d5010984ce72e43f156e8') in 0.008182 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 51.793327 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/45ACP Bullet_Head.prefab
-  artifactKey: Guid(65c9f6563c561ee4e8905d1e6a32548b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/45ACP Bullet_Head.prefab using Guid(65c9f6563c561ee4e8905d1e6a32548b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515b90097b901d241f645b6b4cf1e8ec') in 0.217128 seconds 
+  Time since last request: 0.209740 seconds.
+  path: Assets/Baseball Bats/Assets/Models/Materials/Baseball_Bat.mat
+  artifactKey: Guid(c616ebf621f068e498f02a169d3a3554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Models/Materials/Baseball_Bat.mat using Guid(c616ebf621f068e498f02a169d3a3554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0224edfa55ebe2acf414eb146c5233e') in 0.092982 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 252.650612 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Base Prefabs/Bullet_Head.prefab
-  artifactKey: Guid(9e0ef2cf9cfc11c46bbe7f28b272f6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Base Prefabs/Bullet_Head.prefab using Guid(9e0ef2cf9cfc11c46bbe7f28b272f6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51089de963176aca3abfb75e9097f97') in 0.008274 seconds 
+  Time since last request: 3.078863 seconds.
+  path: Assets/Baseball Bats/Assets/Materials
+  artifactKey: Guid(7b97df2b4d2186b48aefc90636cafdea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Materials using Guid(7b97df2b4d2186b48aefc90636cafdea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb90ee018afe54fdf2a4d7ce151fd2c') in 0.001990 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Base Prefabs/M1911 Magazine Base.prefab
-  artifactKey: Guid(71d42f13891e48c4487496fd15802eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Base Prefabs/M1911 Magazine Base.prefab using Guid(71d42f13891e48c4487496fd15802eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '110797de23fca38c7504b457c6a48e2f') in 0.101670 seconds 
+  Time since last request: 0.063746 seconds.
+  path: Assets/Baseball Bats/Assets/Materials/Mob_Baseball_Bat_01.mat
+  artifactKey: Guid(65737500a7b3732419cc51dd57a76877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Materials/Mob_Baseball_Bat_01.mat using Guid(65737500a7b3732419cc51dd57a76877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28dc370420a6f639657a4cb2e24cb33f') in 0.014466 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.856982 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Black/M1911 Handgun_Black.prefab
-  artifactKey: Guid(87e308cb23eea97419b3c2623d8bb3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Black/M1911 Handgun_Black.prefab using Guid(87e308cb23eea97419b3c2623d8bb3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3cd3394009376dfd46e1b3ed963caf0') in 0.029984 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/Baseball Bats/Assets/Materials/Mob_Baseball_Bat_03.mat
+  artifactKey: Guid(3988249ada95ce64282cd8fde6df42db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Materials/Mob_Baseball_Bat_03.mat using Guid(3988249ada95ce64282cd8fde6df42db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5838832b7682295a69af176f2c6a66') in 0.015023 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Black/M1911 Magazine_Black_Full.prefab
-  artifactKey: Guid(3891d67bd4812e34db02888d6b7ae428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Black/M1911 Magazine_Black_Full.prefab using Guid(3891d67bd4812e34db02888d6b7ae428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32d945c4e4206d73831930de4dea929') in 0.019096 seconds 
+  Time since last request: 0.000031 seconds.
+  path: Assets/Baseball Bats/Assets/Materials/PC_Baseball_Bat_08.mat
+  artifactKey: Guid(f8770feb6cc3bdf42900cbb9e1d589f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Materials/PC_Baseball_Bat_08.mat using Guid(f8770feb6cc3bdf42900cbb9e1d589f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6cb53708366225c2bb4bbebe5882cf') in 0.012377 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.670563 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Handgun_Silver.prefab
-  artifactKey: Guid(5c59210965ffbcc4093fe99a29edb777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Handgun_Silver.prefab using Guid(5c59210965ffbcc4093fe99a29edb777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9359b8ea8d4636e29b01d2772ee291') in 0.025383 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Assets/Baseball Bats/Assets/Materials/PC_Baseball_Bat_12.mat
+  artifactKey: Guid(e4e8da6a406bb454f90ef8a96e5daa8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Materials/PC_Baseball_Bat_12.mat using Guid(e4e8da6a406bb454f90ef8a96e5daa8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675fe18823d2db9f1a2f1915ddfb35f2') in 0.011330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Baseball Bats/Assets/Materials/Mob_Baseball_Bat_12.mat
+  artifactKey: Guid(e0f4b82e412119e4a8daf69ed722e9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Materials/Mob_Baseball_Bat_12.mat using Guid(e0f4b82e412119e4a8daf69ed722e9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234f2103789652569b46932bbacf1f45') in 0.017215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Baseball Bats/Assets/Materials/Mob_Baseball_Bat_07.mat
+  artifactKey: Guid(338fca8d7cbec3e4fbdae62acd48d45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Materials/Mob_Baseball_Bat_07.mat using Guid(338fca8d7cbec3e4fbdae62acd48d45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d47e6a74e1d2c0115fb0abe568ec964') in 0.012026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Baseball Bats/Assets/Materials/PC_Baseball_Bat_09.mat
+  artifactKey: Guid(fd94c7d733fa0f04abca13c177eb2708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Materials/PC_Baseball_Bat_09.mat using Guid(fd94c7d733fa0f04abca13c177eb2708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776eafc7f2a60f8d335ec76bbd28a15a') in 0.011697 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Magazine_Silver_Full.prefab
-  artifactKey: Guid(383b1a391f98da5478a7dddc283414a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Magazine_Silver_Full.prefab using Guid(383b1a391f98da5478a7dddc283414a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bde896bc8d0f20daae7ef2f52cbf885') in 0.016554 seconds 
+  path: Assets/Baseball Bats/Assets/Materials/Mob_Baseball_Bat_06.mat
+  artifactKey: Guid(b4e393c182ad48d4980f1dce70e2bfeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Materials/Mob_Baseball_Bat_06.mat using Guid(b4e393c182ad48d4980f1dce70e2bfeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d6c4d7c757ebf3184d3507f9c8ceb7') in 0.013407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Baseball Bats/Assets/Materials/Mob_Baseball_Bat_04.mat
+  artifactKey: Guid(3d7d44caab35ab64d824e043b594e5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Materials/Mob_Baseball_Bat_04.mat using Guid(3d7d44caab35ab64d824e043b594e5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e0715d16ffea7bfa4bb0f77e3aa8f8') in 0.012309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Baseball Bats/Assets/Materials/Mob_Baseball_Bat_08.mat
+  artifactKey: Guid(7b033ef1640a4a9408f17f67bd0e6384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Materials/Mob_Baseball_Bat_08.mat using Guid(7b033ef1640a4a9408f17f67bd0e6384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8627a4a52fab6a71c7ca93f2ad4232') in 0.013055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Baseball Bats/Assets/Materials/Mob_Baseball_Bat_10.mat
+  artifactKey: Guid(0e6266ecd34f4d8408bf57377c02a558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Materials/Mob_Baseball_Bat_10.mat using Guid(0e6266ecd34f4d8408bf57377c02a558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68d6ed0dda76f2e6917c25f3535f6d6') in 0.013047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Baseball Bats/Assets/Materials/PC_Baseball_Bat_13.mat
+  artifactKey: Guid(9b84d96edec3e074a96ccba10ae0bf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Materials/PC_Baseball_Bat_13.mat using Guid(9b84d96edec3e074a96ccba10ae0bf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10add719d671493fa6c9793824df63bf') in 0.010037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Baseball Bats/Assets/Materials/PC_Baseball_Bat_10.mat
+  artifactKey: Guid(543bf285f95354f4093cb94466b28c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Materials/PC_Baseball_Bat_10.mat using Guid(543bf285f95354f4093cb94466b28c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20908ff977f3215ad7a64bff07265a9') in 0.012617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Baseball Bats/Assets/Materials/PC_Baseball_Bat_07.mat
+  artifactKey: Guid(de09fdf5640bbc740959b2eb93b3b837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Materials/PC_Baseball_Bat_07.mat using Guid(de09fdf5640bbc740959b2eb93b3b837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c84845c7b64152a85b8ea21c8d08558a') in 0.012164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Baseball Bats/Assets/Materials/PC_Baseball_Bat_11.mat
+  artifactKey: Guid(2b0f6b853af71784e9985f63ba6e750d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Materials/PC_Baseball_Bat_11.mat using Guid(2b0f6b853af71784e9985f63ba6e750d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71bb3f85a6c0e10cc7f4d363bc2477fc') in 0.011667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Baseball Bats/Assets/Materials/PC_Baseball_Bat_01.mat
+  artifactKey: Guid(0c2ca16f3eff3e147867ef90edea1815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Materials/PC_Baseball_Bat_01.mat using Guid(0c2ca16f3eff3e147867ef90edea1815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d766e4175403a7d784ec18e2ff53dc') in 0.011915 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004318 seconds.
+Registered in 0.005501 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\UnityProjects\Halloween Gamejam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\UnityProjects\Halloween Gamejam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -232,43 +298,43 @@ Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.829 seconds
+- Completed reload, in  1.006 seconds
 Domain Reload Profiling:
-	ReloadAssembly (830ms)
-		BeginReloadAssembly (115ms)
+	ReloadAssembly (1006ms)
+		BeginReloadAssembly (137ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (640ms)
-			LoadAssemblies (67ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (779ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (227ms)
+			SetupTypeCache (243ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (259ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (366ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (27ms)
+				InitializePlatformSupportModulesInManaged (33ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (151ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3372 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (81.2 KB). Loaded Objects now: 3851.
-Memory consumption went from 120.7 MB to 120.6 MB.
-Total: 2.607200 ms (FindLiveObjects: 0.236300 ms CreateObjectMapping: 0.086100 ms MarkObjects: 2.195400 ms  DeleteObjects: 0.088500 ms)
+Unloading 3880 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (150.8 KB). Loaded Objects now: 4404.
+Memory consumption went from 142.3 MB to 142.2 MB.
+Total: 5.545900 ms (FindLiveObjects: 0.496700 ms CreateObjectMapping: 0.238600 ms MarkObjects: 4.663500 ms  DeleteObjects: 0.145600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -280,60 +346,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 343.304313 seconds.
-  path: Assets/Zombie/FBXs/Zombie2.FBX
-  artifactKey: Guid(6a28a82791e0b224081a04d42d031ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/FBXs/Zombie2.FBX using Guid(6a28a82791e0b224081a04d42d031ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69738230909d3fd1d0ff05e1a703b0e3') in 0.106551 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Zombie/FBXs/Zombie3.FBX
-  artifactKey: Guid(a1b4b8144e2a4054199287da62cdd0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/FBXs/Zombie3.FBX using Guid(a1b4b8144e2a4054199287da62cdd0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfab9152d3ccdcaeffdb04811cffef1') in 0.043529 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.369057 seconds.
-  path: Assets/Zombie/Prefabs/Zombie2.prefab
-  artifactKey: Guid(d58be77cba3adf54cb14b15052b86514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/Prefabs/Zombie2.prefab using Guid(d58be77cba3adf54cb14b15052b86514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8770affdf2d8c36fd505574985e101') in 0.054168 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Zombie/Prefabs/Zombie3.prefab
-  artifactKey: Guid(06cb2b131fe009c47a523671a8fa9ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/Prefabs/Zombie3.prefab using Guid(06cb2b131fe009c47a523671a8fa9ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b613aae6f9d25527445d3442e4d57472') in 0.046243 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 79.628789 seconds.
-  path: Assets/Zombie/Animations/Zombie@Z_FallingBack.FBX
-  artifactKey: Guid(857241dcf6bb2ea45a0b3f46d78f44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/Animations/Zombie@Z_FallingBack.FBX using Guid(857241dcf6bb2ea45a0b3f46d78f44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77149856d9589bccdb13593c939e9ddf') in 0.035312 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Zombie/Animations/Zombie@Z_Walk.FBX
-  artifactKey: Guid(59dbfb66512f63c4eb6e1e30e0603198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/Animations/Zombie@Z_Walk.FBX using Guid(59dbfb66512f63c4eb6e1e30e0603198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93bb45ce42dd49a9bc073c50f55238c0') in 0.096190 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Zombie/Animations/Zombie@Z_Run_InPlace.FBX
-  artifactKey: Guid(79969b20b5ba62e499ee433a4dd38701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/Animations/Zombie@Z_Run_InPlace.FBX using Guid(79969b20b5ba62e499ee433a4dd38701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6efcbb747378062d4ed7fcc76b67943b') in 0.096206 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Zombie/Animations/Zombie@Z_Walk_InPlace.FBX
-  artifactKey: Guid(165698eac7ca81041ad603fc5a3afa55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/Animations/Zombie@Z_Walk_InPlace.FBX using Guid(165698eac7ca81041ad603fc5a3afa55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915a01818c319d7c3c32a65473890fd1') in 0.104954 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Zombie/Animations/Zombie@Z_Idle.FBX
-  artifactKey: Guid(0d6373858f853604b960cf84b7d3dfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/Animations/Zombie@Z_Idle.FBX using Guid(0d6373858f853604b960cf84b7d3dfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea09708490a8798177f7aeebbae18523') in 0.086758 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

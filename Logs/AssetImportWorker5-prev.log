@@ -15,7 +15,7 @@ C:/Users/User/UnityProjects/Halloween Gamejam
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-50502
+58372
 Successfully changed project path to: C:/Users/User/UnityProjects/Halloween Gamejam
 C:/Users/User/UnityProjects/Halloween Gamejam
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/User/UnityProjects/Halloween Gamejam
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [32976] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 753566105 [EditorId] 753566105 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M416NKQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [6028] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 809444813 [EditorId] 809444813 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M416NKQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [32976] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 753566105 [EditorId] 753566105 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M416NKQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [6028] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 809444813 [EditorId] 809444813 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M416NKQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 69.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 75.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.17f1 (3e8111cac19d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Resources/UnitySubsystems
@@ -67,54 +67,54 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006694 seconds.
+Registered in 0.007446 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 212 ms
+Android Extension - Scanning For ADB Devices 222 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 71.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 76.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.750 seconds
+- Completed reload, in  0.765 seconds
 Domain Reload Profiling:
-	ReloadAssembly (751ms)
-		BeginReloadAssembly (54ms)
+	ReloadAssembly (766ms)
+		BeginReloadAssembly (56ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (610ms)
-			LoadAssemblies (53ms)
+		EndReloadAssembly (619ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (81ms)
+			SetupTypeCache (79ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (465ms)
+			SetupLoadedEditorAssemblies (476ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (283ms)
+				InitializePlatformSupportModulesInManaged (293ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (71ms)
+				RefreshPlugins (76ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (69ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				ProcessInitializeOnLoadAttributes (74ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005295 seconds.
+Registered in 0.004675 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\UnityProjects\Halloween Gamejam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\UnityProjects\Halloween Gamejam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -122,32 +122,32 @@ Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 75.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.832 seconds
+- Completed reload, in  0.985 seconds
 Domain Reload Profiling:
-	ReloadAssembly (833ms)
-		BeginReloadAssembly (86ms)
+	ReloadAssembly (985ms)
+		BeginReloadAssembly (85ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (657ms)
+		EndReloadAssembly (814ms)
 			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (195ms)
+			SetupTypeCache (199ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (307ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (453ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
+				InitializePlatformSupportModulesInManaged (23ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (188ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (249ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -156,12 +156,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3376 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (113.4 KB). Loaded Objects now: 3835.
-Memory consumption went from 115.7 MB to 115.6 MB.
-Total: 4.024300 ms (FindLiveObjects: 0.440400 ms CreateObjectMapping: 0.134100 ms MarkObjects: 3.351200 ms  DeleteObjects: 0.097700 ms)
+Unloading 3886 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (184.2 KB). Loaded Objects now: 4345.
+Memory consumption went from 137.2 MB to 137.0 MB.
+Total: 3.789000 ms (FindLiveObjects: 0.309900 ms CreateObjectMapping: 0.307600 ms MarkObjects: 3.026900 ms  DeleteObjects: 0.143500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -175,22 +175,40 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 34914.400761 seconds.
-  path: Assets/IdiaSoftware/ZombieFreeCharacterSounds/Z1-Free/Z1-V1-Attacking-Free-1.ogg
-  artifactKey: Guid(5ce6bb262e363834db2b5cdef8a21155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IdiaSoftware/ZombieFreeCharacterSounds/Z1-Free/Z1-V1-Attacking-Free-1.ogg using Guid(5ce6bb262e363834db2b5cdef8a21155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83114021838459557da88b0d23e78c6') in 0.117754 seconds 
+  Time since last request: 34211.953778 seconds.
+  path: Assets/Baseball Bats/Assets/Prefabs/Mob_Baseball_Bat_03.prefab
+  artifactKey: Guid(707238a926ad1bc4ba23e6d6c12cef48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Prefabs/Mob_Baseball_Bat_03.prefab using Guid(707238a926ad1bc4ba23e6d6c12cef48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '443f78a1e0e725dbd1ab0ba6258537f7') in 0.302955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Baseball Bats/Assets/Prefabs/PC_Baseball_Bat_05.prefab
+  artifactKey: Guid(0a59b15581f4421439e48d7a1eaa6b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Prefabs/PC_Baseball_Bat_05.prefab using Guid(0a59b15581f4421439e48d7a1eaa6b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f540aa5665d653b81b78b8dd0c75d6f') in 0.036119 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000033 seconds.
-  path: Assets/IdiaSoftware/ZombieFreeCharacterSounds/Z1-Free/Z1-V1-Searching-Free-1.ogg
-  artifactKey: Guid(821b6440d8e269c40b5a0eb8a44a079d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IdiaSoftware/ZombieFreeCharacterSounds/Z1-Free/Z1-V1-Searching-Free-1.ogg using Guid(821b6440d8e269c40b5a0eb8a44a079d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9788f66326370292bc6739734b4d063b') in 0.020033 seconds 
+  path: Assets/Baseball Bats/Assets/Prefabs/Mob_Baseball_Bat_11.prefab
+  artifactKey: Guid(9a496c17c448bc24284cfbb701a34802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Prefabs/Mob_Baseball_Bat_11.prefab using Guid(9a496c17c448bc24284cfbb701a34802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7759c9ce68ab506665e4d3efcf276a8') in 0.015092 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/IdiaSoftware/ZombieFreeCharacterSounds/Z1-Free/Z1-V2-Damaged-Free-1.ogg
-  artifactKey: Guid(0547b940dba4d964e9e447af1dc0759a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IdiaSoftware/ZombieFreeCharacterSounds/Z1-Free/Z1-V2-Damaged-Free-1.ogg using Guid(0547b940dba4d964e9e447af1dc0759a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8991475f196c67a9bf844da06c450393') in 0.093866 seconds 
+  Time since last request: 0.000028 seconds.
+  path: Assets/Baseball Bats/Assets/Prefabs/PC_Baseball_Bat_12.prefab
+  artifactKey: Guid(b2c2eaa77adbe704690e52a50768f2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Prefabs/PC_Baseball_Bat_12.prefab using Guid(b2c2eaa77adbe704690e52a50768f2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714e665a7ce0eba2ae7d21cc47c3b09f') in 0.015791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Baseball Bats/Assets/Prefabs/PC_Baseball_Bat_11.prefab
+  artifactKey: Guid(222902f0ac7823c43bf673fdb207e370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Prefabs/PC_Baseball_Bat_11.prefab using Guid(222902f0ac7823c43bf673fdb207e370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8e316b578c407f85a9e51f7e817f96') in 0.021214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Baseball Bats/Assets/Prefabs/PC_Baseball_Bat_02.prefab
+  artifactKey: Guid(32e2b716ba1bd954881c465451619b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Prefabs/PC_Baseball_Bat_02.prefab using Guid(32e2b716ba1bd954881c465451619b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171efa15cce185c798d731b52dc3b8ba') in 0.017716 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
