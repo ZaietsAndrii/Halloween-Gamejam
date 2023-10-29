@@ -2392,9 +2392,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraTarget: {fileID: 7305479789073001076}
-  cursorState: 0
-  xMouseSensetivity: 2
-  yMouseSensetivity: 2
+  cursorState: 1
+  xMouseSensetivity: 6
+  yMouseSensetivity: 6
   isGround: 0
   moveSpeed: 3
   sprintMultiplier: 1.7

@@ -771,6 +771,8 @@ GameObject:
   m_Component:
   - component: {fileID: 427610}
   - component: {fileID: 9526514}
+  - component: {fileID: 4483095367649914210}
+  - component: {fileID: 551576943816346524}
   m_Layer: 0
   m_Name: BlueSuitFree01
   m_TagString: Untagged
@@ -805,7 +807,7 @@ Animator:
   m_GameObject: {fileID: 129800}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: e6ab94ea3d7bfb840aa41680fa79570e, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2426c4813a92470429d7012289c107ce, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -815,6 +817,33 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &4483095367649914210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1cd77a3185ee6840ae18a70caf7aff6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 0
+--- !u!136 &551576943816346524
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129800}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.14
+  m_Height: 1.7755429
+  m_Direction: 1
+  m_Center: {x: -0, y: 0.88864917, z: -0}
 --- !u!1 &131150
 GameObject:
   m_ObjectHideFlags: 0
